@@ -81,7 +81,9 @@ h3 {
     column-gap: 80px;
     padding-bottom: 150px;
 }
+@media (max-width: 991px) {
 
+}
 #my-values-header {
     grid-column: 1 2;
     grid-row: span 1;
@@ -111,14 +113,6 @@ h3 {
 #craftsmanship p {
     max-width: 200px;
 }
-
-#lines {
-    position: absolute;
-    height: 550px;
-    top: 0px;
-    left: 300px;
-}
-
 
 #team {
     position: absolute;
