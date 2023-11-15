@@ -1,0 +1,14 @@
+small {
+    font-size: 0.5em;
+}
+
+#social-links a {
+    text-decoration: none;    
+}
+
+body{
+    background-color: #8a9194;
+background-image: url("https://transparenttextures.com/patterns/asfalt-light.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+}
