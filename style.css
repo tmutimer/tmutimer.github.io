@@ -286,12 +286,12 @@ h3 {
     padding: 50px;
 }
 
-#action-buttons a {
-    background-color: #e18430;
-    color: white;
+#contact-buttons a {
+    margin-top: 10px;
+    margin-bottom: 500px;
 }
 
-#action-buttons {
-    margin-top: 100px;
-    margin-bottom: 500px;
+.action-buttons-row a {
+    background-color: #e18430;
+    color: white;
 }
