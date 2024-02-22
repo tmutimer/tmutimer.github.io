@@ -106,7 +106,7 @@ h3 {
 #idea {
     position: absolute;
     height: 150px;
-    left:-20px;
+    left:-50px;
     bottom: -50px;
 }
 
@@ -133,10 +133,6 @@ h3 {
         grid-column: 1 2;
         grid-row: span 1;
     }
-    
-    .value-card {
-    }
-    
     
     .value-card p {
         font-family: 'IBM Plex Sans Condensed', sans-serif;
@@ -173,30 +169,43 @@ h3 {
 }
 
 
-#gtd {
-    left: -30px;
-    top: 155px;
-    height: 130px;
-}
-
-#basb {
-    left: 0px;
-    top: 190px;
-    height: 130px;
-}
-
-
 #todoist {
-    top: 190px;
+    top: 210px;
     right: 15px;
     height: 60px;
 }
 
 #obsidian {
-    top: 160px;
-    right: -40px;
+    top: 170px;
+    right: -45px;
     height: 75px;
 }
+
+#gtd {
+    display: none;
+}
+
+#basb {
+    display: none;
+}
+
+/* To hide the books on small screen */
+@media (min-width: 991px) {
+    #gtd {
+        display: block ;
+        left: -30px;
+        top: 165px;
+        height: 130px;
+    }
+
+    #basb {
+        display: block;
+        left: 0px;
+        top: 190px;
+        height: 130px;
+    }
+}
+
 
 #icl {
     bottom: -18px;
@@ -235,13 +244,37 @@ h3 {
       
 }
 
+/* Hide the logos on small screen */
+.logos {
+    display: none;
+}
+
+.skills-lists {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.skills-lists > div {
+    text-align: start;
+}
+
+@media (min-width: 991px) {
+    .logos {
+        display: block;
+    }
+
+    .skills-lists {
+        display: none;
+    }
+}
+
 .logos {
     overflow: hidden;
     white-space: nowrap;
     padding: 50px 0;
     background-color: white;
     position: relative;
-    
 }
 
 .logos:before , .logos:after {
