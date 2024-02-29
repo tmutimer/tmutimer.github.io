@@ -55,6 +55,7 @@ h3 {
 }
 
 #tldr {
+    display: none;
     background-color: #dadde7;
 }
 
